@@ -1,107 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
-  <meta charset="UTF-8">
   <title>My Resume</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+      <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <link href="style.css" type="text/css" rel="stylesheet">
-<head>
-<h1>Whit Hurt</h1>
-  <style>
- *{
- 	font-family: Georgia;
- }
- /*Paragraph Stylng */
- p{
- 	font-size: 18px;
- }
-  </style>
-    <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Address')">Address</button>
-  <button class="tablinks" onclick="openCity(event, 'Phone Number')">Phone Number</button>
-  <button class="tablinks" onclick="openCity(event, 'Email')">Email</button>
+  <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
-
-<div id="Address" class="tabcontent">
-  <h3>2423 Viar Road</h3>
+  <div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
 </div>
-
-<div id="Phone Number" class="tabcontent">
-  <h3>(731) 413-7363</h3> 
+  <div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
 </div>
-
-<div id="Email" class="tabcontent">
-  <h3>20david.hurt@mytcalions</h3>
-  <h3>whithurt@hotmail.com</h3>
+  <div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
 </div> 
- <style>
-  /* Style the tab */
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-}
-
-/* Style the buttons inside the tab */
-div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-div.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-} 
-  </style>
-  <script>
-  function openCity(evt, cityName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-} 
-  </script>
 <h3>Hi, my name is Whit Hurt. I am a 15 year old boy who wants to become an engineer, mainly working with computers and other technology. I make good grades and ended up with a 3.6 GPA at the end of my freshman year. I go to Trinity Christian Academy. Here is a link to their website.</h3>
 <a href="http://www.tcalions.com/"><img src="https://pbs.twimg.com/profile_images/509863813328666624/bhgPHMWQ.jpeg" height="150px"></a>
 <h3> I am currently a sophomore in highschool, but I plan to attend Texas AM for college.</h3>
@@ -114,106 +34,5 @@ div.tab button.active {
 </ul>
     <h3>References</h3>
 <h3> rayhurt@bellsouth.net</h3>
-<style>
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-div.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-} 
-  </style>
-<script>
-  function openCity(evt, cityName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-} 
-  </script>
- <style>
-  .tabcontent {
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-@-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-} 
-<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-
-<script>
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script> 
-<!-- Click on the <span> element to close the tab -->
-
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <span onclick="this.parentElement.style.display='none'">x</span> 
-</div>
-   <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-
-<script>
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-  
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
 </body>
-
 </html>
