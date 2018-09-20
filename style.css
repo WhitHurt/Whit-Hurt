@@ -24,6 +24,10 @@
     border: 1px solid #ccc;
     border-top: none;
 } 
+h1{
+    font-family: Helvetica;
+    color: white;
+}
 h3{
     font-family: Helvetica;
     color: white;
