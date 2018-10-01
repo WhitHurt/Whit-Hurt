@@ -50,8 +50,3 @@ div.header{
     height: 200px;
     background-image: url(http://gdurl.com/n6kH);
 }
- img.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}    
