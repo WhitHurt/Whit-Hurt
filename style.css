@@ -37,5 +37,7 @@ p{
     color: white;
 }
 body{
-    background-color: black;
+    background-image: url("http://gdurl.com/n6kH");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
