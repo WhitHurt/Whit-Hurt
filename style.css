@@ -40,5 +40,5 @@ body{
     background-image: url("http://gdurl.com/n6kH");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1000px 1000px;
+    background-size: 100% 100%;
 }
