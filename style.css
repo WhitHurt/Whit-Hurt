@@ -37,6 +37,6 @@ p{
     color: black;
 }
 body{
-    background-image: url(thA5LT1NVF.jpg) no-repeat center fixed;
+    background-image: url('thA5LT1NVF.jpg') no-repeat center fixed;
     background-size: cover;
 }
